@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .counter {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="counter">Counter: <span id="count">0</span></div>
+
+    </div>
+
+
+    <button onclick="increment()"><img src=" image/minus.png " alt="...."></button>
+
+    <script>
+        // Function to increment the counter
+        function increment() {
+            var countElement = document.getElementById('count');
+            var count = parseInt(countElement.textContent);
+            count++;
+            countElement.textContent = count;
+        }
+    </script>
+
+</body>
+
+</html>
