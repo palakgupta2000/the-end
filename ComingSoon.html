@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container-fluid {
+            width: 100vw;
+            height: 100vh;
+            background: url("https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&w=600");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container-fluid::after {
+            content: "";
+            width: 100vw;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.452);
+            position: absolute;
+
+            right: 0;
+        }
+
+        .heading {
+            color: rgb(255, 255, 255);
+
+            font-size: 90px;
+        }
+
+        .img1 {
+            /* border: 5px solid rgb(203, 126, 60); */
+            width: 20%;
+            margin: auto;
+            z-index: 5;
+            position: absolute;
+            top: 0;
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 50%;
+            /* border: 1px solid; */
+            
+        }
+
+        .container-fluid a {
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            text-decoration: none;
+            color: rgb(252, 251, 249);
+            font-weight: bolder;
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 20px;
+        }
+
+        .main-content {
+            /* border: 1px solid red; */
+            position: absolute;
+            z-index: 1;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="img1">
+            <img src="logo.png" alt="....">
+        </div>
+        <div class="main-content">
+           
+            <h1 class="heading"> Coming Soon</h1>
+            <a href="go to home" class="btn btn-warning">Go to home</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

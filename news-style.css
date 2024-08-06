@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.MuiContainer-root-4754{
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.jss4703 h4{
+    font-size: 2.5rem;
+    margin-left: 40px;
+    font-weight: 500;
+    margin: 18px 40px;
+}
+.jss4712 {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.jss4712 p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 19px;
+}
+.MuiButtonBase-root-4807{
+    height: 55px;
+    width: 140.13px;
+    color: white;
+    background-color: black;
+    margin-right: 26px;
+    position: relative;
+}
+.MuiSvgIcon-root-4808{
+    fill: currentColor;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    position: absolute;
+    left: 5%;
+    
+    
+
+}
+.MuiTypography-root-4889 .MuiTypography-body1-4891{
+    font-weight: 500;
+    line-height: 1.75;
+    text-transform: uppercase;
+
+}
+.MuiTypography-body1-4891{
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-left: 32px;
+    font-size: px;
+
+}
+
+
+

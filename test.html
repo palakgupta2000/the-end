@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Off Canvas Menu</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <style>
+    #off-canvas-menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Initially off the screen */
+  width: 250px;
+  height: 100%;
+  background: #333;
+  transition: left 0.3s ease;
+}
+
+#off-canvas-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#off-canvas-menu ul li {
+  padding: 10px;
+  border-bottom: 1px solid #555;
+}
+
+#off-canvas-menu ul li:last-child {
+  border-bottom: none;
+}
+
+#open-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+#close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <button id="open-btn">Open Menu</button>
+  <div id="off-canvas-menu">
+    <button id="close-btn">Close Menu</button>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+    document.getElementById('open-btn').addEventListener('click', function() {
+  document.getElementById('off-canvas-menu').style.left = '0';
+});
+
+document.getElementById('close-btn').addEventListener('click', function() {
+  document.getElementById('off-canvas-menu').style.left = '-250px';
+});
+
+  </script>
+</body>
+</html>
+ 
